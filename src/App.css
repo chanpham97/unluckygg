@@ -17,7 +17,10 @@
   position: absolute;
 }
 
-.App {
+#App {
+  height: 100%;
+  width: 100%;
+  position: absolute;
   font-family: 'Inconsolata';
 }
 
