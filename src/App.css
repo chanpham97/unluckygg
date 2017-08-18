@@ -1,27 +1,15 @@
 @@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
-.header {
-  background-color: #222;
-  height: 80px;
-  text-align: center;
-  width: 100%;
-  padding: 20px;
-  color: white;
-  position: absolute;
-
-}
-
-#full {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-
 #App {
   height: 100%;
   width: 100%;
   position: absolute;
   font-family: 'Inconsolata';
+  background: url(./pikachu-teemo.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .searchBar {
@@ -34,15 +22,7 @@
   right:0;
 }
 
-#summoner-label {
+label {
   color: white;
   font-size: 20px;
-}
-
-html { 
-  background: url(./pikachu-teemo.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
