@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
-import SearchBar from './components/SearchBar';
+import { Route, Switch } from 'react-router' // react-router v4
 import Header from './components/Header';
+import HomePage from './components/HomePage';
+import UserPage from './components/UserPage';
 
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div id="App">
+      <div id='App'>
         <Header/>
-        <SearchBar/>
+        <Switch>
+          <Route exact path='/' component={HomePage}/>
+          <Route path='/user' component={UserPage}/> 
+        </Switch>
       </div>
     );
   }

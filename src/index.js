@@ -3,6 +3,8 @@ import { render } from 'react-dom'
 import { Provider } from 'react-redux'
 import { ConnectedRouter } from 'react-router-redux'
 import store, { history } from './store'
+import registerServiceWorker from './registerServiceWorker';
+
 import App from './App'
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
@@ -19,3 +21,4 @@ render(
   </Provider>,
   target
 )
+registerServiceWorker();

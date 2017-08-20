@@ -1,8 +1,6 @@
 @@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
 #App {
-  height: 100%;
-  width: 100%;
   font-family: 'Inconsolata';
 }
 
@@ -10,10 +8,6 @@
   padding-top: 100px;
   padding-left: 40px;
   padding-right: 40px;
-  width: 100%;
-  height: 100%;
-  left:0;
-  right:0;
 }
 
 label {
